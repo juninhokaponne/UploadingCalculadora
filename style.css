@@ -1,0 +1,43 @@
+body
+{ 
+    text-align: center;
+    color: blueviolet;  
+}
+.op
+{
+    text-align: center;
+}
+.tres
+{
+    text-align: center;
+}
+.seis
+{
+    text-align: center;
+}
+.nove
+{
+    text-align: center;
+}
+.zero
+{ 
+    text-align: center;
+}
+.barra
+{
+text-align: center;
+}
+.tudo
+{
+    border-bottom:none;
+    margin-left: 2px;
+    height: 7px;
+    width: 300px;
+    border: 10px solid #fc0e0e; 
+    border-left: 10px solid #fc0e0e;
+    border-right: 10px solid #fc0e0e;
+    border-bottom: 10px solid #fc0e0e;
+    height: 250px;
+}
+
+   
