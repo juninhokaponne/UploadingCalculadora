@@ -7,39 +7,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form name="calculadora" >
-            <div id="todoid" class="tudo"> 
-                <h1>Calculadora</h1> 
-                <div id="barraid" class="barra">
-                    <input type="textfield" name="ans" value=""> 
-                </div>   
-                <div id="opid" class="op">
-                    <input type="button" value="+" onClick="document.calculadora.ans.value+='+'">
-                    <input type="button" value="*" onClick="document.calculadora.ans.value+='*'">
-                    <input type="button" value="/" onClick="document.calculadora.ans.value+='/'">
-                    <input type="button" value="-" onClick="document.calculadora.ans.value+='-'">
-                </div>
-                <div id="tresid" class="tres">
-                    <input type="button" value="1" onClick="document.calculadora.ans.value+='1'">
-                    <input type="button" value="2" onClick="document.calculadora.ans.value+='2'">
-                    <input type="button" value="3" onClick="document.calculadora.ans.value+='3'">
-                </div>
-                <div id="siesid" class="seis">
-                    <input type="button" value="4" onClick="document.calculadora.ans.value+='4'">
-                    <input type="button" value="5" onClick="document.calculadora.ans.value+='5'">
-                    <input type="button" value="6" onClick="document.calculadora.ans.value+='6'">
-                </div>
-                <div id="noveid" class="nove">
-                    <input type="button" value="7" onClick="document.calculadora.ans.value+='7'">
-                    <input type="button" value="8" onClick="document.calculadora.ans.value+='8'">
-                    <input type="button" value="9" onClick="document.calculadora.ans.value+='9'">
-                </div>
-                <div id="zeroid" class="zero">
-                    <input type="reset" value="C">  
-                    <input type="button" value="0" onClick="document.calculadora.ans.value+='0'">
-                    <input type="button" value="=" onClick="document.calculadora.ans.value=eval(document.calculadora.ans.value)">
-                </div>
-            </div>  
-        </form>
+        <!-- Conteúdo da calculadora -->
+     <div id="Calculadora">
+        <!-- Display da calculadora-->
+        <div id="resultado"></div>
+        <span class="key">7</span>
+        <span class="key">8</span>
+        <span class="key">9</span>
+        <span class="C">C</span>
+        <span class="key">4</span>
+        <span class="key">5</span>
+        <span class="key">6</span>
+        <span class="key">/</span>
+        <span class="key">1</span>
+        <span class="key">2</span>
+        <span class="key">3</span>
+        <span class="key">*</span>
+        <span class="key">0</span>
+        <span class="key">00</span>
+        <span class="key">.</span>
+        <span class="key">+</span>
+        <span class="igual">=</span>
+        <span class="key">-</span>
+      </div>
+    <!-- Valor inicial atribuido ao sinal de = (igualdade) key equal-key -->
     </body>
 </html>
