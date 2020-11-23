@@ -1,43 +1,94 @@
-body
-{ 
-    text-align: center;
-    color: blueviolet;  
+/*--------------------------------------------------------------------*/
+/* Corpo da calculadora */
+/*--------------------------------------------------------------------*/
+#Calculadora {
+  width: 170px;
+  background: rgb(36, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 36, 1) 0%,
+    rgba(120, 30, 185, 1) 71%,
+    rgba(101, 0, 255, 1) 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
 }
-.op
-{
-    text-align: center;
+/*--------------------------------------------------------------------*/
+/* Display da calculadora */
+/*--------------------------------------------------------------------*/
+#resultado {
+  width: 155px;
+  height: 35px;
+  background-color: #cddecc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: right;
+  line-height: 34px;
+  font-family: digital;
+  padding: 0px 5px 0px 5px;
+  font-size: 25px;
+  overflow: hidden;
+  box-shadow: inset 0 0px 3px;
 }
-.tres
-{
-    text-align: center;
+/*--------------------------------------------------------------------*/
+/* Botão C de apagar */
+/*--------------------------------------------------------------------*/
+.C {
+  background: rgb(180, 38, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 38, 38, 1) 6%,
+    rgba(250, 0, 0, 1) 56%,
+    rgba(57, 8, 8, 1) 100%
+  );
+  width: 35px;
+  display: inline-block;
+  margin: 3px 0px 8px 3px;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.seis
-{
-    text-align: center;
-}
-.nove
-{
-    text-align: center;
-}
-.zero
-{ 
-    text-align: center;
-}
-.barra
-{
-text-align: center;
-}
-.tudo
-{
-    border-bottom:none;
-    margin-left: 2px;
-    height: 7px;
-    width: 300px;
-    border: 10px solid #fc0e0e; 
-    border-left: 10px solid #fc0e0e;
-    border-right: 10px solid #fc0e0e;
-    border-bottom: 10px solid #fc0e0e;
-    height: 250px;
-}
+/*--------------------------------------------------------------------*/
+/* * classe global para todos botões da calculadora */
+/*--------------------------------------------------------------------*/
 
-   
+.key {
+  width: 35px;
+  background-color: #eeeeee;
+  /*                                 Efeito gradient
+  /*background: rgb(202,219,196);*/
+  /*background: linear-gradient(90deg, rgba(202,219,196,1) 14%, rgba(191,191,191,1) 56%, rgba(190,193,190,1) 70%);*/
+  display: inline-block;
+  margin: 3px 0px 8px 3px;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #a1a1a1, 0 2px 5px rgba(0, 0, 0, 0.75);
+}
+/*--------------------------------------------------------------------*/
+/* botão de = na calculadora */
+/*--------------------------------------------------------------------*/
+.igual {
+  background: rgb(49, 175, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 175, 1, 1) 14%,
+    rgba(7, 144, 24, 1) 56%,
+    rgba(18, 162, 13, 1) 70%
+  );
+  width: 119px;
+  display: inline-block;
+  margin: 3px 0px 8px 3px;
+  vertical-align: bottom;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
